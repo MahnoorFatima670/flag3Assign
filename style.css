@@ -1,0 +1,70 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container
+{
+display: flex;
+justify-content:center;
+align-items:center;
+width:100%;
+height:100vh;
+background-color:antiquewhite;
+flex-direction: column;
+}
+
+.sub-container
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 217px;
+    height:126px;
+    flex-direction: column;
+    border: 2px solid black;
+
+}
+
+.section1
+{
+background-color: black;
+width:213px;
+height:41px;
+
+}
+
+.section2
+{
+    background-color: white;
+    width: 213px;
+    height:41px;
+   
+}
+.section3
+{
+    background-color: green;
+    width: 213px;
+    height:41px;
+   
+}
+
+.name-flag
+{
+    font-weight: bold;
+    color:black;
+    margin-top: 10px;
+}
+
+.my-shape img
+{
+    width:110px;
+    height:125px;
+    position: relative;
+    top: -154px;
+    left:-56px;
+}
+
+
